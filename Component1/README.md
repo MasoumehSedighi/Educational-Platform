@@ -40,7 +40,7 @@ CourseDetails Component : This Component Displays the details of the selected co
 
 Navbar Component : This Component helps users navigate the app and provides a link back to the home page.
 
-
+```
 Educational-Platform/
 │
 ├── Component1/         # Frontend React application
@@ -60,3 +60,4 @@ Educational-Platform/
 |   ├── README.md     # Documentation
 |   ├── package.json  # Dependencies and scripts
 |   └── ...           // Configuration Files
+```
