@@ -1,0 +1,146 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Course list styling */
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Course card styling */
+.course-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+}
+
+.course-card img {
+  max-width: 100%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.course-card h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.course-card p {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px 0;
+}
+
+.course-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.course-card a:hover {
+  background-color: #0056b3;
+}
+
+.navbar {
+  background-color: #007bff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .nav-link {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+  color: #ffcc00;
+}
+
+/* Course detail page */
+.course-detail {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.course-detail img {
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.course-detail h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.course-detail p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.course-detail ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.course-detail ul li {
+  margin-bottom: 10px;
+}
+
+.course-detail button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.course-detail button:hover {
+  background-color: #218838;
+}
+
+
+
+/* Responsive layout for larger screens */
+@media (min-width: 768px) {
+  .course-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .course-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    padding: 20px 40px;
+  }
+
+  .navbar .nav-link {
+    font-size: 1.4rem;
+  }
+}
