@@ -53,10 +53,10 @@ Educational-Platform/
 │   │   ├── data/     # Course data file
 |   |   |    ├──courses.jsx
 │   │   ├── App.jsx   # Main App component
+|   |   ├── index.css # Style file
 │   │   ├── main.jsx  # React entry point
 │   ├── index.html    # HTML template
 │   ├── .gitignore    # Ignored files
-|   ├── document.pdf
 |   ├── README.md     # Documentation
 |   ├── package.json  # Dependencies and scripts
 |   └── ...           // Configuration Files
