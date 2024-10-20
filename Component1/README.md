@@ -34,9 +34,29 @@ This will launch at  http://localhost:5173/ .
 
 Components
 
-Home Component : This Component displays a list of cources. This Component gets the data from cources.jsx in data folder
+Home Component : This Component displays a list of cources. This Component gets the data from courses.jsx in data folder
 
-CourseDetails Component : This Component Displays the details of the selected course. This Component gets the data from cources.jsx in data folder as well.
+CourseDetails Component : This Component Displays the details of the selected course. This Component gets the data from courses.jsx in data folder as well.
 
 Navbar Component : This Component helps users navigate the app and provides a link back to the home page.
 
+
+Educational-Platform/
+│
+├── Component1/         # Frontend React application
+|   ├── public
+│   ├── src/
+│   │   ├── components/ # React components
+|   |   |   ├── Home.jsx
+|   |   |   ├── CourseDetails.jsx
+|   |   |   ├── Navbar.jsx
+│   │   ├── data/     # Course data file
+|   |   |    ├──courses.jsx
+│   │   ├── App.jsx   # Main App component
+│   │   ├── main.jsx  # React entry point
+│   ├── index.html    # HTML template
+│   ├── .gitignore    # Ignored files
+|   ├── document.pdf
+|   ├── README.md     # Documentation
+|   ├── package.json  # Dependencies and scripts
+|   └── ...           // Configuration Files
