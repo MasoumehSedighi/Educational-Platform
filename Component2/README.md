@@ -45,15 +45,18 @@ http://localhost:3000/
 
 You can use Postman to test the API endpoints. Documentation for all endpoints is provided below.
 
-API Endpoints
+
 
 GET /courses
+
 Fetches all courses.
 
 GET /courses/:id
+
 Fetches a course by its ID.
 
 POST /courses
+
 Creates a new course. Requires title, description, instructor, duration, and category in the request body.
 ```
 {
@@ -66,16 +69,21 @@ Creates a new course. Requires title, description, instructor, duration, and cat
 ```
 
 PUT /courses/:id
+
 Updates a course by its ID.
 
 DELETE /courses/:id
+
 Deletes a course by its ID.
 
 
 # Technologies Used
 Express.js: A web application framework for Node.js.
+
 MongoDB: NoSQL database for storing courses.
+
 Mongoose: ODM for MongoDB, used for schema and model creation.
+
 dotenv: For environment variable management.
 
 
