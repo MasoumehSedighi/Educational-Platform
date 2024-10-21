@@ -49,15 +49,15 @@ You can use Postman to test the API endpoints. Documentation for all endpoints i
 
 GET /courses
 
-Fetches all courses.
+  * Fetches all courses.
 
 GET /courses/:id
 
-Fetches a course by its ID.
+  * Fetches a course by its ID.
 
 POST /courses
 
-Creates a new course. Requires title, description, instructor, duration, and category in the request body.
+  * Creates a new course. Requires title, description, instructor, duration, and category in the request body.
 ```
 {
   "title": "Intro to Node.js",
@@ -70,11 +70,11 @@ Creates a new course. Requires title, description, instructor, duration, and cat
 
 PUT /courses/:id
 
-Updates a course by its ID.
+ * Updates a course by its ID.
 
 DELETE /courses/:id
 
-Deletes a course by its ID.
+ * Deletes a course by its ID.
 
 
 # Technologies Used
