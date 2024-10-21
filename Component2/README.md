@@ -1,6 +1,9 @@
 # Prerequisites
-Install Node JS
-Refer to https://nodejs.org/en/ to install nodejs
+Ensure you have the following installed:
+
+Node.js
+
+MongoDB
 
 # Getting Started
 Follow these steps to set up the project on your local machine.
