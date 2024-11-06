@@ -1,4 +1,4 @@
-#Technologies Used
+# Technologies Used
 
 Installation
 
@@ -17,13 +17,13 @@ cd Educational-Platform
 
     * Navigate to the backend folder: cd backend
     * Install dependencies:
-
     ```
     npm install
     ```
 
     * Set up environment variables:
     * Create a .env file in the root of the backend folder and add the following:
+      
     ```
     DATABASE_URL=your_mongodb_connection_string
     PORT=3000
@@ -55,7 +55,7 @@ cd Educational-Platform
     * Frontend server runs at: http://localhost:5173
 
 ```
-mern-educational-platform/
+Component3/
 ├── backend/
 │   ├── models/
 │   │   └── course.js
