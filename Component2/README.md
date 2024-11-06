@@ -1,3 +1,8 @@
+# Overview
+
+This component implements the back-end for an educational platform, providing an Express server with a MongoDB database to manage course data.
+The server is designed to handle API requests for retrieving, adding, updating, deleting and displaying details of various courses.
+
 # Prerequisites
 Ensure you have the following installed:
 
