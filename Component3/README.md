@@ -1,4 +1,4 @@
-# Technologies Used
+# Getting Started
 
 Installation
 
