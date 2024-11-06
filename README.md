@@ -9,3 +9,16 @@ The project emphasizes a clean structure, modularized code, and an intuitive UI 
  * Backend: Node.js, Express
  * Database: MongoDB, Mongoose
  * Other: dotenv, CORS
+
+# setup
+
+
+This project consists of four components:
+
+- [Component One](#component-one): Detailed description is available in the [Component One README](./Component1/README.md).
+- [Component Two](#component-two): Check out the [Component Two README](./Component2/README.md).
+- [Component Three](#component-three): Further details can be found in the [Component Three README](./Component3/README.md).
+- [Component Four](#component-four): More information is available in the [Component Four README](./Component4/README.md).
+  
+
+
