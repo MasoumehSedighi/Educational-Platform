@@ -1,4 +1,4 @@
-# overview
+# Overview
 
 This component is designed to display a home page listing various courses and a detailed view page for each individual course.
 The goal is to provide users with an accessible, responsive interface to explore and learn more about the courses offered.
