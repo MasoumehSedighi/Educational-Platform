@@ -1,3 +1,8 @@
+# Overview
+
+This component provides the client-side interface for an educational platform, enabling users to view and interact with course information.
+Built with React, this front-end application fetches data from the back-end server and displays it in a user-friendly format, offering both a course listing and detailed view for each course.
+
 # Getting Started
 
 Installation
